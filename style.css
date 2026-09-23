@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #111;
+}
+
+header {
+    padding: 20px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #111;
+    display: inline-block;
+    padding: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menu a:hover {
+    transform: translateY(-3px);
+    color: #0766ff;
+}
+
+.inicio {
+    height: 100vh;
+}
+
+.perfil img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 18px;
+    animation: flutuar 5s ease-in-out infinite;
+    box-shadow: 0 20px 60px rgb(7, 102, 255);
+}
+
+.perfil h1 {
+    text-align: center;
+    color: #0766ff;
+    font-size: 46px;
+}
+
+.perfil p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.carrossel {
+    background-color: #0766ff;
+    width: 100%;
+    padding: 50px;
+    margin: 36px 0;
+    overflow: hidden; /*Esconde os livros que estao fora da tela*/
+}
+
+.trilha-carrossel {
+    display: flex;
+    gap: 30px; 
+    width: max-content;
+    animation: rolar 15s linear infinite; /* Animação constante que dura 15 segundos */
+}
+
+.livro {
+    height: 250px;
+    width: auto;
+    object-fit: cover; 
+    flex-shrink: 0; 
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@keyframes rolar {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Roda exatamente até a metade, onde os clones começam */
+    }
+}
+
+@keyframes flutuar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
