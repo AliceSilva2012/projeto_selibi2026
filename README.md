@@ -1,8 +1,9 @@
 # 📚 Blog Selibi 2026 - Thalita Rebouças
 
 > Projeto (escolar) de desenvolvimento frontend criado para a feira literária Selibi 2026, com foco na vida e nas obras da escritora brasileira Thalita Rebouças.
->
-> !note
+> 
+> [!NOTE]
+> **🚧 Projeto em Desenvolvimento:** Esta não é a versão final do projeto. Novas funcionalidades, novas `section`, melhorias de design e ajustes de informações estão sendo implementados continuamente. **Entrega do projeto: 28 de setembro de 2026**. 
 
 ## 🚀 Funcionalidades
 
