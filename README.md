@@ -12,7 +12,6 @@
 *   **Perfil da Autora:** Cabeçalho fixo (`position: fixed`) com compensação de margem e imagem circular centralizada.
 *   **Carrossel Infinito:** Animação contínua de capas de livros desenvolvida com CSS puro (`@keyframes` e `transform`).
 *   **Linha do Tempo (Timeline):** Componente visual construído semanticamente com `<time>` e `<article>`, utilizando pseudo-elementos (`::before`) para os marcadores cronológicos.
-*   **Galeria de Cinema:** Exibição de pôsteres lado a lado utilizando Flexbox e tags semânticas (`<figure>` e `<figcaption>`).
   
 ## 📊 Status do Projeto
 
@@ -22,8 +21,8 @@
 | Centralização da Foto e Correção de Z-Index | ✅ Concluído |
 | Lógica e Animação do Carrossel de Livros | ✅ Concluído |
 | Linha do Tempo da Jornada da Autora | ✅ Concluído |
-| Estrutura da Seção "Adaptações para o Cinema" | ✅ Concluído |
-| Textos das Resenhas do Grupo | ⏳ Pendente |
+| Estrutura da Seção "Adaptações para o Cinema" | ⏳ Pendente |
+| Sobre o Grupo | ⏳ Pendente |
 | Desenvolvimento do Rodapé (Footer) | ⏳ Pendente |
 | Publicação na Internet (Hospedagem) | ⏳ Pendente |
 
