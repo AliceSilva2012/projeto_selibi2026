@@ -10,7 +10,7 @@
 ## 🚀 Funcionalidades
 
 *   **Perfil da Autora:** Estruturação em bloco com alinhamento visual e imagem circular.
-*   **Carrossel Infinito:** Animação contínua e fluida desenvolvida com CSS puro (`@keyframes` e `transform`).
+*   **Carrossel Infinito:** Animação contínua dos livros e fluida desenvolvida com CSS puro (`@keyframes` e `transform`).
 *   **Menu de Navegação:** Cabeçalho fixo com efeitos de transição (hover) interativos.
 
 ## 📊 Status do Projeto
