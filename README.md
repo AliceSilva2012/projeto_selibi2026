@@ -1,27 +1,30 @@
 # 📚 Blog Selibi 2026 - Thalita Rebouças
 
-<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/87bc421a-f961-465c-a09f-f3727be4c605">
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/7a113a35-dd2a-42bd-8322-96aa2de6ef49">
 
 > Projeto (escolar) de desenvolvimento frontend criado para a feira literária [Selibi 2026](https://www.sesisp.org.br/educacao/noticia/selibi-2026-incentiva-protagonismo-estudantil-e-fortalece-a-formacao-de-leitores-na-rede-sesi-sp), com foco na vida e nas obras da escritora brasileira Thalita Rebouças.
 
 > [!NOTE]
 > **🚧 Projeto em Desenvolvimento:** Esta não é a versão final do projeto. Novas funcionalidades, novas `section`, melhorias de design e ajustes de informações estão sendo implementados continuamente. **Entrega do projeto: 28 de setembro de 2026**. 
 
-## 🚀 Funcionalidades
+## 🚀 Funcionalidades e Estrutura
 
-*   **Perfil da Autora:** Estruturação em bloco com alinhamento visual e imagem circular.
-*   **Carrossel Infinito:** Animação contínua dos livros e fluida desenvolvida com CSS puro (`@keyframes` e `transform`).
-*   **Menu de Navegação:** Cabeçalho fixo com efeitos de transição (hover) interativos.
-
+*   **Perfil da Autora:** Cabeçalho fixo (`position: fixed`) com compensação de margem e imagem circular centralizada.
+*   **Carrossel Infinito:** Animação contínua de capas de livros desenvolvida com CSS puro (`@keyframes` e `transform`).
+*   **Linha do Tempo (Timeline):** Componente visual construído semanticamente com `<time>` e `<article>`, utilizando pseudo-elementos (`::before`) para os marcadores cronológicos.
+*   **Galeria de Cinema:** Exibição de pôsteres lado a lado utilizando Flexbox e tags semânticas (`<figure>` e `<figcaption>`).
+  
 ## 📊 Status do Projeto
 
 | Tarefa | Status |
 | :--- | :---: |
 | Estrutura HTML do Cabeçalho e Menu | ✅ Concluído |
-| Centralização da Foto de Perfil | ✅ Concluído |
+| Centralização da Foto e Correção de Z-Index | ✅ Concluído |
 | Lógica e Animação do Carrossel de Livros | ✅ Concluído |
-| Criação da Seção "Adaptações para o Cinema" | ⏳ Pendente |
-| Informações do Grupo | ⏳ Pendente |
+| Linha do Tempo da Jornada da Autora | ✅ Concluído |
+| Estrutura da Seção "Adaptações para o Cinema" | ✅ Concluído |
+| Textos das Resenhas do Grupo | ⏳ Pendente |
+| Desenvolvimento do Rodapé (Footer) | ⏳ Pendente |
 | Publicação na Internet (Hospedagem) | ⏳ Pendente |
 
 ## 🛠️ Tecnologias Utilizadas
