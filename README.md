@@ -28,6 +28,11 @@
 *   **CSS3:** Flexbox, animações e responsividade.
 *   **Git / GitHub:** Versionamento do código e colaboração escolar.
 
+---
+
+> [!NOTE]
+> **❗️ERROR 404:** Projeto não disponível para teste!
+
 ## 📂 Arquitetura do Projeto
 
 ```mermaid
