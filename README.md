@@ -29,16 +29,16 @@
 ## 🛠️ Tecnologias Utilizadas
 
 *   **HTML5:** Semântica e estruturação.
-*   **CSS3:** Flexbox, animações e responsividade.
+*   **CSS3:** Flexbox e animações.
 *   **Git / GitHub:** Versionamento do código e colaboração escolar.
 
 ---
 
 ## 🌎 Teste o preview deste projeto no seu navegador!
 
-> Como já informado, este projeto ainda está em desenvolvimento, o link abaixo é apenas o preview da aplicação (ainda não se trata do projeto completo). Em breve a versão completa do projeto. Aproveite!
+> Como já informado, este projeto ainda está em desenvolvimento, o projeto ainda não é responsivo, abra em um PC, Notebook ou tablet; o link abaixo é apenas o preview da aplicação (ainda não se trata do projeto completo). Em breve a versão completa do projeto. Aproveite!
 
-- **Selibi 2026:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://selibi.netlify.app)
+- **Selibi 2026:** [VEJA O PREVIEW DESTE PROJETO NO SEU NAVEGADOR!](https://selibi.netlify.app)
 
 ---
 ## 📂 Arquitetura do Projeto
