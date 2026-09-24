@@ -34,9 +34,13 @@
 
 ---
 
-> [!NOTE]
-> **❗️ERROR 404:** Projeto não disponível para teste!
+## 🌎 Teste o preview deste projeto no seu navegador!
 
+> Como já informado, este projeto ainda está em desenvolvimento, o link abaixo é apenas o preview da aplicação (ainda não se trata do projeto completo). Em breve a versão completa do projeto. Aproveite!
+
+- **Selibi 2026:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://selibi.netlify.app)
+
+---
 ## 📂 Arquitetura do Projeto
 
 ```mermaid
