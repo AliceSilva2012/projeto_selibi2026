@@ -1,6 +1,6 @@
 # 📚 Blog Selibi 2026 - Thalita Rebouças
 
-<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/7a113a35-dd2a-42bd-8322-96aa2de6ef49">
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e8ca4fbe-c555-483d-b1ea-98e592f47e44">
 
 > Projeto escolar (blog) de desenvolvimento front-end criado para a feira literária [Selibi 2026](https://www.sesisp.org.br/educacao/noticia/selibi-2026-incentiva-protagonismo-estudantil-e-fortalece-a-formacao-de-leitores-na-rede-sesi-sp), com foco na vida e nas obras da escritora brasileira Thalita Rebouças.
 
