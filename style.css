@@ -84,14 +84,14 @@ header {
     width: 100%;
     padding: 50px;
     margin: 36px 0;
-    overflow: hidden;
+    overflow: hidden; /*Esconde os livros que estao fora da tela*/
 }
 
 .trilha-carrossel {
     display: flex;
     gap: 30px; 
     width: max-content;
-    animation: rolar 15s linear infinite;
+    animation: rolar 15s linear infinite; /* Animação constante que dura 15 segundos */
 }
 
 .livro {
@@ -103,12 +103,12 @@ header {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-/* Espaçamento e centralização da seção toda */
+/* Espaçamento e centralização da seção */
 .sessao-jornada {
     padding: 60px 20px;
     max-width: 800px;
     margin: 0 auto; /* Centraliza a caixa inteira na tela */
-    background-color: #fff5f5; /* Mantém a cor de fundo do blog*/
+    background-color: #fff5f5; /* Mantém a cor de fundo do seu site */
 }
 
 .titulo-sessao {
@@ -119,20 +119,20 @@ header {
     margin-bottom: 40px;
 }
 
-/* Cria a linha reta*/
+/* Cria a linha reta vertical na lateral */
 .linha-do-tempo {
     border-left: 4px solid #084bb8;
-    padding-left: 30px; 
+    padding-left: 30px; /* Empurra o texto para não encostar na linha */
     margin-left: 20px;
 }
 
 /* Espaço entre cada evento da história */
 .marco {
     margin-bottom: 40px;
-    position: relative; /* Pra por as bolinha*/
+    position: relative; /* Necessário para os pontinhos funcionarem */
 }
 
-/* Desenha as bolinha colorida em cima da linha (sem precisar de imagem) */
+/* Desenha as bolinhas coloridas em cima da linha (sem precisar de imagens) */
 .marco::before {
     content: '';
     position: absolute;
@@ -155,8 +155,72 @@ header {
 
 .conteudo-marco p {
     font-size: 18px;
-    line-height: 1.6; 
+    line-height: 1.6; /* Deixa o texto mais espaçado e elegante para leitura */
     color: #444;
+}
+
+.rodape-blog {
+    background-color: #111;
+    color: #fff;
+    padding: 48px;
+    font-size: 16px;
+}
+
+.texto-rodape {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.credito-rodape {
+    margin: 4px 0;
+}
+
+.grid-rodape {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.secao-equipe {
+    background-color: #0766ff;
+    padding: 48px;
+    color: #fff;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-perfil {
+    background-color: #efe7e7;
+    margin: 20px;
+    color: #111;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card-perfil hr {
+    height: 4px;
+    background-color: #a9a8a8;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.detalhe-lupa {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.detalhe-lupa img {
+    width: 20px;
+    height: 20px;
+}
+
+.detalhe-lupa p {
+    font-size: 18px;
 }
 
 @keyframes rolar {
@@ -164,7 +228,7 @@ header {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-50%); /* Roda exatamente até a metade, onde os clones começam */
     }
 }
 
