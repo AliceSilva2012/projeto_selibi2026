@@ -11,7 +11,7 @@
 
 *   **Perfil da Autora:** Cabeçalho fixo (`position: fixed`) com compensação de margem e imagem circular centralizada.
 *   **Carrossel Infinito:** Animação contínua de capas de livros desenvolvida com CSS puro (`@keyframes` e `transform`).
-*   **Linha do Tempo (Timeline):** Componente visual construído semanticamente com `<time>` e `<article>`, utilizando pseudo-elementos (`::before`) para os marcadores cronológicos.
+*   **Linha do Tempo (Timeline):** Componente visual construído semanticamente com `<time>` e `<article>`, utilizando pseudo-elementos (`::before`) para os marcadores cronológicos da carreira da Thalita até os dias atuais (2026).
   
 ## 📊 Status do Projeto
 
