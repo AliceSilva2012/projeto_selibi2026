@@ -52,7 +52,7 @@ header {
 
 .inicio {
     height: 100vh;
-    margin-top: 14rem;
+    padding-top: 120px;
 }
 
 .perfil img {
