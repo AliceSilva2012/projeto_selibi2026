@@ -240,3 +240,19 @@ header {
         transform: translateY(-20px);
     }
 }
+
+@media (max-width: 768px) {
+    .grid-rodape {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
