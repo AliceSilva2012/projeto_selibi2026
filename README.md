@@ -8,7 +8,7 @@
 > Projeto escolar (blog) de desenvolvimento front-end criado para a feira literária [Selibi 2026](https://www.sesisp.org.br/educacao/noticia/selibi-2026-incentiva-protagonismo-estudantil-e-fortalece-a-formacao-de-leitores-na-rede-sesi-sp), com foco na vida e nas obras da escritora brasileira Thalita Rebouças.
 
 > [!NOTE]
-> **🚧 Projeto em Fase Final:** O projeto está nos últimos ajustes de layout e conteúdo. **Entrega oficial do projeto: 30 de setembro de 2026**. 
+> **🚧 Projeto em Fase Final:** O projeto está nos últimos ajustes de layout e conteúdo. **Entrega oficial do projeto: 02 de outubro de 2026**. 
 
 ## 🚀 Funcionalidades e Estrutura
 
