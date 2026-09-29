@@ -46,7 +46,7 @@
 > O projeto já conta com adaptações responsivas (`@media queries`) para reorganizar os cartões da equipe e o menu, e segue em aprimoramento contínuo para a versão final, ou seja, a questão da responsividade já está à parte disponível ao publico, porém ainda segue com melhorias.
 
 > [!NOTE]
-> **🚨 Atenção:** Preview não atualizado! 
+> **🚨 Atenção:** O preview hospedado no Netlify está em processo de atualização constante conforme avançamos para a entrega final. Logo o link abaixo ainda não está atualizado! 
 
 - **Selibi 2026:** [VEJA O PREVIEW DESTE PROJETO NO SEU NAVEGADOR!](https://blogselibi.netlify.app)
   
