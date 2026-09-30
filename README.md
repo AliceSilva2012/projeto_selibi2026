@@ -13,10 +13,10 @@
 ## 🚀 Funcionalidades e Estrutura
 
 *   **Perfil da Autora:** Cabeçalho fixo (`position: fixed`) com compensação de margem e hero section com plano de fundo temático.
-*   **Carrossel Infinito:** Animação contínua de capas de livros desenvolvida com CSS puro (`@keyframes` e `transform`).
+*   **Carrossel Infinito:** Animação infinita do carrossel das capas de livros desenvolvida com CSS puro (`@keyframes` e `transform`).
 *   **Linha do Tempo (Timeline):** Componente visual construído semanticamente com `<time>` e `<article>`, utilizando pseudo-elementos (`::before`) para os marcadores cronológicos da carreira da autora.
 *   **Vitrine de Livros Interativa:** Layout com estante organizada por coleções (*Fala Sério!*, *Ela disse, Ele disse* e *Confissões*), com badges de destaque (🎬 *Virou Filme*, ⭐ *Best-Seller*) e sobreposição translúcida com desfoque de fundo (`backdrop-filter`) para exibir a resenha (sinopse) no hover.
-*   **Cartões de Perfil da Equipe:** Exibição estruturada dos integrantes do projeto utilizando Grid Layout, divisórias estilizadas e efeitos de elevação ao passar o mouse.
+*   **Cartões de Perfil da Equipe:** Exibição estruturada dos integrantes do projeto utilizando Grid Layout, divisórias estilizadas e efeitos de elevação (`:hover`) ao passar o mouse.
 *   **Menu e Rolagem Suave:** Navegação por links âncora com efeito de transição suave (`scroll-behavior: smooth`).
 
 ## 📊 Status do Projeto
@@ -37,26 +37,14 @@
 ## 🛠️ Tecnologias Utilizadas
 
 *   **HTML5:** Semântica e estruturação.
-*   **CSS3:** Flexbox, Grid Layout, animações avançadas (`@keyframes`), efeito de vidro/desfoque (`backdrop-filter`) e Media Queries para adaptação em telas menores.
+*   **CSS3:** Flexbox, Grid Layout, animações avançadas (`@keyframes`), efeito de vidro/desfoque (`backdrop-filter`) e Media Queries para adaptação em telas menores (A questão da responsividade do blog ainda está em desenvolvimento, logo, por enquanto, não é totalmente responsivo).
 *   **Git / GitHub:** Versionamento do código e colaboração escolar.
-
----
-
-## 👥 Integrantes do Grupo
-
-* Alice Silva Pereira
-* Davi Costa do Nascimento
-* Davi Martinho Silva Lima
-* João Victor Gomes de Souza
-* Lucas Belarmino Divino
-* Thales Azevedo da Silva
-* Vinícius da Silva Oliveira Feitosa
 
 ---
 
 ## 🌎 Teste o preview deste projeto no seu navegador!
 
-> O projeto já conta com adaptações responsivas (`@media queries`) para reorganizar os cartões da equipe e o menu, e segue em aprimoramento contínuo para a versão final, ou seja, a questão da responsividade já está à parte disponível ao publico, porém ainda segue com melhorias.
+> O projeto já conta com adaptações responsivas (`@media queries`) para reorganizar os cartões da equipe e o menu, e segue em aprimoramento contínuo para a versão final do projeto. 
 
 > [!NOTE]
 > **🚨 Atenção:** O preview hospedado no Netlify está em processo de atualização constante conforme avançamos para a entrega final. Logo o link abaixo ainda não está atualizado! 
@@ -81,3 +69,4 @@ graph TD
     style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
     style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
     style D fill:#ffc107,stroke:#333,stroke-width:2px,color:#000
+```
