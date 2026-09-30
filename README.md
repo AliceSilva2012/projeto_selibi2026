@@ -29,7 +29,7 @@
 | Vitrine Interativa de Livros (Hover Overlay) | ✅ Concluído |
 | Estrutura da Seção "Adaptações para o Cinema" | ⏳ Pendente |
 | Estrutura da Seção "Livros e Coleções" | 🚧 Em andamento |
-| Sobre o Grupo (Equipe) | ✅ Concluído |
+| Sobre o Grupo (Equipe) | 🚧 Em andamento |
 | Desenvolvimento do Rodapé (Footer) | ✅ Concluído |
 | Publicação na Internet (Hospedagem) | ⏳ Pendente |
 
