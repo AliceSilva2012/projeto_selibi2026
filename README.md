@@ -15,8 +15,9 @@
 *   **Perfil da Autora:** Cabeçalho fixo (`position: fixed`) com compensação de margem e hero section com plano de fundo temático.
 *   **Carrossel Infinito:** Animação contínua de capas de livros desenvolvida com CSS puro (`@keyframes` e `transform`).
 *   **Linha do Tempo (Timeline):** Componente visual construído semanticamente com `<time>` e `<article>`, utilizando pseudo-elementos (`::before`) para os marcadores cronológicos da carreira da autora.
-*   **Vitrine de Livros Interativa:** Layout responsivo em CSS Grid com cartões de livros que revelam a resenha (sinopse) através de um efeito de sobreposição translúcida (`opacity` e `transition`) no hover.
-*   **Cartões de Perfil da Equipe:** Exibição estruturada dos integrantes do projeto utilizando Grid Layout e divisórias estilizadas.
+*   **Vitrine de Livros Interativa:** Layout com estante organizada por coleções (*Fala Sério!*, *Ela disse, Ele disse* e *Confissões*), com badges de destaque (🎬 *Virou Filme*, ⭐ *Best-Seller*) e sobreposição translúcida com desfoque de fundo (`backdrop-filter`) para exibir a resenha (sinopse) no hover.
+*   **Cartões de Perfil da Equipe:** Exibição estruturada dos integrantes do projeto utilizando Grid Layout, divisórias estilizadas e efeitos de elevação ao passar o mouse.
+*   **Menu e Rolagem Suave:** Navegação por links âncora com efeito de transição suave (`scroll-behavior: smooth`).
 
 ## 📊 Status do Projeto
 
@@ -27,8 +28,8 @@
 | Lógica e Animação do Carrossel de Livros | ✅ Concluído |
 | Linha do Tempo da Jornada da Autora | ✅ Concluído |
 | Vitrine Interativa de Livros (Hover Overlay) | ✅ Concluído |
-| Estrutura da Seção "Adaptações para o Cinema" | ⏳ Pendente |
-| Estrutura da Seção "Livros e Coleções" |✅ Concluído |
+| Estrutura da Seção "Adaptações para o Cinema" | ⏳ Em Andamento |
+| Estrutura da Seção "Livros e Coleções" | ✅ Concluído |
 | Sobre o Grupo (Equipe) | ✅ Concluído |
 | Desenvolvimento do Rodapé (Footer) | ✅ Concluído |
 | Publicação na Internet (Hospedagem) | ⏳ Pendente |
@@ -36,8 +37,20 @@
 ## 🛠️ Tecnologias Utilizadas
 
 *   **HTML5:** Semântica e estruturação.
-*   **CSS3:** Flexbox, Grid Layout, animações avançadas (`@keyframes`) e Media Queries para adaptação em telas menores.
+*   **CSS3:** Flexbox, Grid Layout, animações avançadas (`@keyframes`), efeito de vidro/desfoque (`backdrop-filter`) e Media Queries para adaptação em telas menores.
 *   **Git / GitHub:** Versionamento do código e colaboração escolar.
+
+---
+
+## 👥 Integrantes do Grupo
+
+* Alice Silva Pereira
+* Davi Costa do Nascimento
+* Davi Martinho Silva Lima
+* João Victor Gomes de Souza
+* Lucas Belarmino Divino
+* Thales Azevedo da Silva
+* Vinícius da Silva Oliveira Feitosa
 
 ---
 
@@ -63,8 +76,8 @@ graph TD
     D --> E[biblioteca.png]
     D --> F[lupa.png]
     D --> G[livros.png]
+    D --> H[fotos_equipe.png]
 
     style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
     style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
     style D fill:#ffc107,stroke:#333,stroke-width:2px,color:#000
-```
