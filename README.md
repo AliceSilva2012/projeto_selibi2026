@@ -55,10 +55,16 @@
 ## 📂 Arquitetura do Projeto
 
 ```mermaid
-graph TD;
-    A[blog_selibi] --> B(index.html);
-    A --> C(style.css);
-    A --> D[📁 img];
-    D --> E(biblioteca.png);
-    D --> F(lupa.png);
-    D --> G(livro1.png...livro8.png);
+graph TD
+    A[blog_selibi] --> B[index.html]
+    A --> C[style.css]
+    A --> D[img/]
+    
+    D --> E[biblioteca.png]
+    D --> F[lupa.png]
+    D --> G[livros.png]
+
+    style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#ffc107,stroke:#333,stroke-width:2px,color:#000
+```
