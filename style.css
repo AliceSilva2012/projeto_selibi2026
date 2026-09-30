@@ -223,73 +223,112 @@ header {
     font-size: 18px;
 }
 
-.titulo-secao-livros {
+.sub-secao-livros {
     background-color: #0766ff;
     width: 100%;
     color: #fff;
     padding: 20px;
-    text-align: center;
-    font-size: 20px;
+    font-size: 16px;
+}
+
+.secao-livros {
+    padding: 60px 20px;
+    background-color: #fff5f5;
+    text-align: center; 
+}
+
+.secao-livros h2 {
+    color: #084bb8;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .titulo-colecao {
-    margin-top: 20px;
-    font-size: 28px;
-}
-
-.estante-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 30px;
-  padding: 20px 0;
+    display: inline-block;
+    background-color: #0766ff;
+    color: #ffffff;
+    padding: 8px 24px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(7, 102, 255, 0.3);
 }
 
 .livro-card {
-  margin: 20px;
-  position: relative;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  transition: transform 0.3s ease;
-  aspect-ratio: 2 / 3; /* Proporção padrão de livros */
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+    aspect-ratio: 2 / 3;
 }
 
 .livro-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    
 }
 
 .livro-capa {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Alterado de cover para contain aqui! */
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.livro-badge {
+    position: absolute;
+    top: 15px;
+    right: 8px;
+    background-color: #ffcc00; 
+    color: #111;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 10;
 }
 
 .livro-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(34, 33, 33, 0.85); 
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  text-align: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.65); 
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(8px); /* Suporte para navegadores Safari */
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
 }
 
-.livro-card:hover .livro-overlay {
-  opacity: 1; 
+.livro-titulo {
+    color: #084bb8;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 800;
 }
 
 .livro-sinopse {
-    color: #fff;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.estante-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
+    padding: 20px; /* Garante que os livros não encostem nas bordas do monitor */
+    max-width: 1100px; /* Limita a largura para não esticar demais em telas grandes */
+    margin: 0 auto; /* Centraliza a estante na tela */
+    box-sizing: border-box;
 }
 
 @keyframes rolar {
