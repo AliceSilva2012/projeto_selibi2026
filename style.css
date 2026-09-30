@@ -188,17 +188,32 @@ header {
     color: #fff;
 }
 
+.titulo-equipe, .titulo-livros {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 60px;
+    margin-bottom: 32px;
+}
+
 .cards-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .card-perfil {
     background-color: #efe7e7;
-    margin: 20px;
     color: #111;
     border-radius: 20px;
     padding: 20px;
+    transition: 0.3s ease;
+    display: block; /* Transforma a imagem num bloco independente */
+    margin: 14px auto;
+}
+
+.card-perfil:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card-perfil hr {
@@ -206,6 +221,18 @@ header {
     background-color: #a9a8a8;
     width: 98%;
     margin: 0 auto;
+}
+
+.card-perfil h2 {
+    text-align: center;
+}
+
+.imagem-perfil {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 14px;
+    border-radius: 20px;
 }
 
 .detalhe-lupa {
@@ -232,7 +259,7 @@ header {
 }
 
 .secao-livros {
-    padding: 60px 20px;
+    padding: 80px 0;
     background-color: #fff5f5;
     text-align: center; 
 }
@@ -245,26 +272,25 @@ header {
 
 .titulo-colecao {
     display: inline-block;
-    background-color: #0766ff;
+    background-color: #084bb8;
     color: #ffffff;
     padding: 8px 24px;
     border-radius: 50px;
     font-size: 18px;
     margin-bottom: 40px;
+    margin-top: 20px;
     box-shadow: 0 4px 10px rgba(7, 102, 255, 0.3);
 }
 
 .livro-card {
+    flex-shrink: 0;
+    width: 220px;
     position: relative;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     transition: transform 0.3s ease;
     aspect-ratio: 2 / 3;
-}
-
-.livro-card:hover {
-    
 }
 
 .livro-capa {
@@ -322,13 +348,12 @@ header {
 }
 
 .estante-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    display: flex; 
+    overflow-x: auto;
     gap: 30px;
-    padding: 20px; /* Garante que os livros não encostem nas bordas do monitor */
-    max-width: 1100px; /* Limita a largura para não esticar demais em telas grandes */
-    margin: 0 auto; /* Centraliza a estante na tela */
+    padding: 40px 20px; 
     box-sizing: border-box;
+    width: 100%;
 }
 
 @keyframes rolar {
