@@ -49,7 +49,7 @@
 > [!NOTE]
 > **🚨 Atenção:** O preview hospedado no Netlify está em processo de atualização constante conforme avançamos para a entrega final. Logo o link abaixo ainda não está atualizado! 
 
-- **Selibi 2026:** [VEJA O PREVIEW DESTE PROJETO NO SEU NAVEGADOR!](https://alicesilva2012.github.io/selibi/))
+- **Selibi 2026:** [VEJA O PREVIEW DESTE PROJETO NO SEU NAVEGADOR!](https://alicesilva2012.github.io/selibi)
   
 ---
 
