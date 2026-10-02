@@ -444,7 +444,7 @@ header {
 @media (max-width: 768px) {
     /* 1. Header & Menu */
     header {
-        padding: 10px;
+        padding: 12px;
     }
 
     .menu {
@@ -454,13 +454,13 @@ header {
     }
 
     .menu a {
-        font-size: 14px;
-        padding: 8px 10px;
+        font-size: 16px;
+        padding: 10px 12px;
     }
 
     .inicio {
-        padding-top: 100px;
-        min-height: auto;
+        padding-top: 110px;
+        min-height: 200px;
     }
 
     .perfil {
@@ -474,7 +474,7 @@ header {
     }
 
     .perfil p {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .carrossel {
@@ -485,7 +485,6 @@ header {
         height: 180px;
     }
 
-    /* 3. Seção Jornada / Linha do Tempo */
     .sessao-jornada {
         padding: 40px 16px;
     }
@@ -514,7 +513,6 @@ header {
         font-size: 15px;
     }
 
-    /* 4. Seção Livros */
     .secao-livros {
         padding: 40px 0;
     }
