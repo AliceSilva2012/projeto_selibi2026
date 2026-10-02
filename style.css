@@ -91,7 +91,18 @@ header {
     display: flex;
     gap: 30px; 
     width: max-content;
-    animation: rolar 15s linear infinite; /* Animação constante que dura 15 segundos */
+    animation: deslizarCarrossel 15s linear infinite; /* Animação constante que dura 15 segundos */
+}
+
+@keyframes deslizarCarrossel {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        /* Se duplicou os livros no HTML para ficar infinito, use -50%. 
+           Se não duplicou e quer apenas que deslize até ao fim, ajuste este valor (ex: -100%) */
+        transform: translateX(-50%); 
+    }
 }
 
 .livro {
@@ -260,7 +271,7 @@ header {
 
 .secao-livros {
     padding: 80px 0;
-    background-color: #fff5f5;
+    background-color: #f5f5f5;
     text-align: center; 
 }
 
@@ -321,22 +332,30 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.65); 
-    backdrop-filter: blur(8px); 
-    -webkit-backdrop-filter: blur(8px); /* Suporte para navegadores Safari */
-    color: #111;
+    background: rgba(0, 0, 0, 0.75); 
+    backdrop-filter: blur(4px); 
+    -webkit-backdrop-filter: blur(4px);
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
     text-align: center;
-    opacity: 0;
+    opacity: 0; /* Começa invisível */
     transition: opacity 0.4s ease;
 }
 
+.livro-card:hover .livro-overlay {
+    opacity: 1;
+}
+
+.livro-card:hover .livro-capa {
+    transform: scale(1.05);
+}
+
 .livro-titulo {
-    color: #084bb8;
+    color: #fff;
     margin-bottom: 15px;
     font-size: 22px;
     font-weight: 800;
@@ -356,35 +375,69 @@ header {
     width: 100%;
 }
 
-@keyframes rolar {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%); /* Roda exatamente até a metade, onde os clones começam */
-    }
+.secao-cinema {
+    background-color: #141414; 
+    color: #ffffff;
+    padding: 80px 0;
+    text-align: center;
 }
 
-@keyframes flutuar {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
+.secao-cinema h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #e50914; /* Vermelho estilo Netflix pra destaque */
 }
 
-@media (max-width: 768px) {
-    .grid-rodape {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .cards-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .menu {
-        flex-wrap: wrap;
-        gap: 10px;
-    }
+.secao-cinema p {
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+    color: #b3b3b3;
 }
+
+.cinema-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.filme-card {
+    background-color: #222222;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 280px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.filme-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(237, 15, 15, 0.7);
+}
+
+.filme-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.filme-info {
+    padding: 20px;
+}
+
+.filme-info h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+
+.filme-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #888888;
+}
+
