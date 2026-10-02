@@ -441,3 +441,175 @@ header {
     color: #888888;
 }
 
+@media (max-width: 768px) {
+    /* 1. Header & Menu */
+    header {
+        padding: 10px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .menu a {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .inicio {
+        padding-top: 100px;
+        min-height: auto;
+    }
+
+    .perfil {
+        margin-top: 80px;
+        margin-bottom: 20px;
+        padding: 0 16px;
+    }
+
+    .perfil h1 {
+        font-size: 32px;
+    }
+
+    .perfil p {
+        font-size: 15px;
+    }
+
+    .carrossel {
+        padding: 20px 10px;
+    }
+
+    .livro {
+        height: 180px;
+    }
+
+    /* 3. Seção Jornada / Linha do Tempo */
+    .sessao-jornada {
+        padding: 40px 16px;
+    }
+
+    .titulo-sessao {
+        margin-top: 2rem;
+        font-size: 28px;
+    }
+
+    .linha-do-tempo {
+        margin-left: 10px;
+        padding-left: 20px;
+    }
+
+    .marco::before {
+        left: -31px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .marco time {
+        font-size: 20px;
+    }
+
+    .conteudo-marco p {
+        font-size: 15px;
+    }
+
+    /* 4. Seção Livros */
+    .secao-livros {
+        padding: 40px 0;
+    }
+
+    .secao-livros h2 {
+        font-size: 26px;
+    }
+
+    .titulo-colecao {
+        font-size: 16px;
+        padding: 6px 18px;
+    }
+
+    .estante-grid {
+        gap: 15px;
+        padding: 20px 16px;
+    }
+
+    .livro-card {
+        width: 160px;
+    }
+
+    .livro-card:active .livro-overlay,
+    .livro-card:focus .livro-overlay {
+        opacity: 1;
+    }
+
+    .livro-titulo {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .livro-sinopse {
+        font-size: 12px;
+        line-height: 1.3;
+    }
+
+    /* 5. Seção Cinema */
+    .secao-cinema {
+        padding: 50px 16px;
+    }
+
+    .secao-cinema h2 {
+        font-size: 2rem;
+    }
+
+    .cinema-grid {
+        grid-template-columns: 1fr; /* Coluna única no celular */
+        justify-items: center;
+        gap: 24px;
+    }
+
+    .filme-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .filme-card img {
+        height: 350px;
+    }
+
+    /* 6. Seção Equipe */
+    .secao-equipe {
+        padding: 40px 16px;
+    }
+
+    .titulo-equipe {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr; /* 1 card de perfil por linha */
+    }
+
+    .card-perfil {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .imagem-perfil {
+        width: 100%;
+        max-width: 260px;
+        height: 260px;
+    }
+
+    /* 7. Rodapé */
+    .rodape-blog {
+        padding: 32px 16px;
+    }
+
+    .grid-rodape {
+        grid-template-columns: 1fr; /* Lista os nomes um abaixo do outro no mobile */
+        gap: 8px;
+    }
+}
+
+
