@@ -464,7 +464,7 @@ header {
     }
 
     .perfil {
-        margin-top: 80px;
+        margin-top: 140px;
         margin-bottom: 20px;
         padding: 0 16px;
     }
@@ -574,7 +574,6 @@ header {
         height: 350px;
     }
 
-    /* 6. Seção Equipe */
     .secao-equipe {
         padding: 40px 16px;
     }
