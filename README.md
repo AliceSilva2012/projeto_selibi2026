@@ -77,7 +77,7 @@ graph TD
     A --> C[style.css]
     A --> D[img/]
     
-    D --> E[Imagens e Pôsteres (.png)]
+    D --> E[Imagens e Pôsteres (imagem.png)]
 
     style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
     style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
