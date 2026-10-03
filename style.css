@@ -460,7 +460,7 @@ header {
 
     .inicio {
         padding-top: 100px;
-        min-height: 80vh; 
+        min-height: 95vh; 
         justify-content: center; 
     }
 
@@ -561,7 +561,7 @@ header {
     }
 
     .cinema-grid {
-        grid-template-columns: 1fr; /* Coluna única no celular */
+        grid-template-columns: 1fr;
         justify-items: center;
         gap: 24px;
     }
@@ -585,7 +585,7 @@ header {
     }
 
     .cards-grid {
-        grid-template-columns: 1fr; /* 1 card de perfil por linha */
+        grid-template-columns: 1fr; 
     }
 
     .card-perfil {
@@ -599,7 +599,6 @@ header {
         height: 260px;
     }
 
-    /* 7. Rodapé */
     .rodape-blog {
         padding: 32px 16px;
     }
