@@ -55,8 +55,18 @@ O projeto se destaca pelo design moderno e responsivo, utilizando animações CS
 
 1. **Clone este repositório:**
    ```bash
-   git clone [https://github.com/AliceSilva2012/selibi.git](https://github.com/AliceSilva2012/selibi.git)
+   git clone https://github.com/AliceSilva2012/selibi.git
    ```
+
+2. **Acesse a pasta do projeto:**
+   ```bash
+   cd selibi
+   ```
+
+3. **Execute a aplicação:**
+   - Dê um duplo clique no arquivo `index.html` para abri-lo no navegador, ou
+   - Clique com o botão direito no `index.html` e selecione **Open with Live Server**.
+  
    ---
 
    ## 📁 Estrutura do Arquivo
