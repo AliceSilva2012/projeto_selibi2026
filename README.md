@@ -56,3 +56,20 @@ O projeto se destaca pelo design moderno e responsivo, utilizando animações CS
 1. **Clone este repositório:**
    ```bash
    git clone [https://github.com/AliceSilva2012/selibi.git](https://github.com/AliceSilva2012/selibi.git)
+   ```
+   ---
+
+   ## 📁 Estrutura do Arquivo
+
+```mermaid
+graph TD
+    A[selibi] --> B[index.html]
+    A --> C[style.css]
+    A --> D[img/]
+    
+    D --> E[Imagens e Pôsteres (.png)]
+
+    style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#f7df1e,stroke:#333,stroke-width:2px,color:#000
+```
