@@ -442,7 +442,7 @@ header {
 }
 
 @media (max-width: 768px) {
-    /* 1. Header & Menu */
+    
     header {
         padding: 12px;
     }
@@ -460,7 +460,7 @@ header {
 
     .inicio {
         padding-top: 100px;
-        min-height: 100vh; 
+        min-height: 95vh; 
         justify-content: center; 
     }
 
